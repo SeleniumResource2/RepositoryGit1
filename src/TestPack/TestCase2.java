@@ -3,6 +3,7 @@ package TestPack;
 public class TestCase2 {
 	public static void main(String[] args) {
 		testcasetwo();
+		testcasetwo(3, 4, 5);
 	}
 	
 	public static void testcasetwo(){
@@ -15,4 +16,7 @@ public class TestCase2 {
 		System.out.println("Value of addition is : " + c);
 	}
 
+	public static void testcasetwo(int a, int b, int c){
+		System.out.println("Value of addition is : " + (a+b+c));
+	}
 }
